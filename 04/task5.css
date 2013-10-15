@@ -1,0 +1,23 @@
+table{
+	border:1px solid #000;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	
+}
+
+thead,tfoot{
+	background-color: #D3D3D3;
+
+}
+
+td, th{
+	padding: 8px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+}
+
+tfoot{
+	font-style:italic;
+}

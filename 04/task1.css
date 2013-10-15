@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #EEE;
+	font: 16px/1.5 "Times New Roman", Verdana, Arial, sans-serif;
+	padding: 40px;
+}
+
+p, ul, ol, dl{
+	padding-bottom: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+ul, ol{
+	padding-left: 40px;
+	padding-top: 10px;
+
+}
+
+ul li{
+	list-style-type: disc;
+
+}
+
+ol li ul li{
+	list-style-type: lower-alpha;
+	font-weight: lighter;
+}
+
+ol li ol li ul li{
+	list-style-type: square;
+	font-family: "Adobe Caslon Pro Bold", "Times New Roman"
+
+}
+
+ ol li ol li ul li ol li{
+	list-style-type: lower-roman;
+	font-weight: lighter;
+	font-family: "Monotype Corsiva", Verdana
+
+}
+
+
+ol li {
+	list-style-type: upper-alpha;
+		font-weight: bold;
+				
+}
+	
+ol li ol li{
+	list-style-type: decimal;
+	font-style: italic;  
+	font-weight: lighter;
+	
+}
+
+dd{
+	padding-left: 15px;
+}
+
+img{
+	width:150px;
+    height:150px;
+    float: right;
+}
