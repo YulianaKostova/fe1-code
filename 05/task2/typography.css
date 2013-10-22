@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
 body{
 	font:16px/1.5 Verdana, Arial, sans-serif;
 }
@@ -41,6 +42,48 @@ ul li ol li ol li { list-style-type: upper-roman; }
 ol li ol li ol li,
 ul li ol li ol li ol li { list-style-type: upper-alpha; }
 
+body{font:14px/1.5 Verdana, Arial, sans-serif;}
+p{padding-bottom:10px;}
+.content{
+	background-color: #eaedf3;
+	border:1px solid;
+	border-color: #969696;
+	width: 260px;
+	height: 1000px;
+	margin-bottom: 30px
+
+}
+
+.content ul{
+	text-align:left;
+	font-size: 95%;
+	padding-left: 14px;
+	padding-bottom: 0;
+	padding-top:0;
+}
+
+.content ul li {
+	list-style-type: none;
+}
+
+.under{
+	padding: 0;
+	margin: 0;
+	font-size: 95%;
+}
+
+.firstparagraph{
+	padding-left: 20px;
+	font-style: italic;
+
+}
+
+#headcontent{
+	text-align: center;
+	font-size:90%;
+
+}
+
 blockquote {
 background: #FFF;
 border: 1px solid #CCC;
@@ -60,3 +103,9 @@ border-color: #000;
 blockquote p:last-child {
 padding: 0;
 }
+
+.abbr{color: #F00;
+	letter-spacing: 0.2em	
+}
+
+.amp{font-family:"Berkshire Swash" Baskerville;}
